@@ -1,6 +1,5 @@
 from typing import List
 import tiktoken
-
 class ChunkingService:
     def chunk_text(self, text: str, chunk_size: int = 500, overlap: int = 50) -> List[str]:
         # Simple character based chunking for now, or word based
